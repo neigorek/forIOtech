@@ -5,18 +5,23 @@
 
     align-items: center;
 
+
+
 }
 .list-item span{
 
     text-align: center;
 }
-
+.pub{
+    color: lightSteelBlue;
+}
 .shape{
     color: violet;
     text-align: center;
     border: 1px groove black;
-    height: 25px;
-    width: 25px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
+    background-color: azure;
 }
 

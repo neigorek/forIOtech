@@ -115,7 +115,7 @@ export default class App extends Component{
 
 
         return(
-            <div className={'container'}>
+            <div className={'container app'}>
 
                 <div className={'d-flex'}>
                     <Search onSearchChange = { this.onSearchChange }/>

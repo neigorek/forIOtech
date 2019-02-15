@@ -19,7 +19,6 @@ export default class ListItem extends Component {
             height: '100%',
             width: '100%',
             visibility: 'visible',
-
             backgroundColor: 'white'
         }
 
@@ -64,11 +63,11 @@ export default class ListItem extends Component {
                 <div  className={'shape'}><span>{name[0]}</span></div>
                 <span className={'col-4'}>
                     <div>{name}</div>
-                    <div>публ.{count_pub}</div>
+                    <div className={'pub'}>публ.{count_pub}</div>
 
                 </span>
 
-                <img style={styling} className={'col-2 medal'} src={src} alt={'img'} width='25px' height='25px'/>
+                <img style={styling} className={'col-2 medal'} src={src} alt={'img'} width='35px' height='35px'/>
 
                 <span className={'col-4'}>{pageviews}</span>
 
