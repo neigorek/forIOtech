@@ -1,5 +1,22 @@
 .list-item{
     display: flex;
 
-    justify-content: space-around;
+    justify-content: space-between;
+
+    align-items: center;
+
 }
+.list-item span{
+
+    text-align: center;
+}
+
+.shape{
+    color: violet;
+    text-align: center;
+    border: 1px groove black;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+
