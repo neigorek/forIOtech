@@ -25,9 +25,9 @@ export default class ListItem extends Component {
 
         const srcs = [
 
-            '../img/1st.svg',
-            '../img/2nd.svg',
-            '../img/3rd.svg'
+            '/img/1st.svg',
+            '/img/2nd.svg',
+            '/img/3rd.svg'
 
         ];
 
